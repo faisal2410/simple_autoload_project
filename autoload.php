@@ -7,7 +7,7 @@ function myAutoloader($className)
     if (file_exists($filePath)) {
         include $filePath;
     } else {
-        echo "Class file for {$className} not found.<br>";
+        echo "Class file for {$className} not found.\n";
     }
 }
 

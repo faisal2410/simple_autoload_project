@@ -5,6 +5,7 @@ use Models\User;
 use Models\Product;
 use Models\Order;
 
+
 // Create instances of the classes
 $user = new User();
 echo $user->getInfo();
@@ -14,3 +15,4 @@ echo $product->getDetails();
 
 $order = new Order();
 echo $order->getOrderInfo();
+
